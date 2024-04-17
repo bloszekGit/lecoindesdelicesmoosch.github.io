@@ -146,7 +146,7 @@ body {
   border-radius: 4px;
 }
 .bg-primary {
-  background-color: #9fe870 !important;
+  background-color: #f92c50 !important;
 }
 .bg-success {
   background-color: #3a341c !important;
@@ -162,9 +162,9 @@ body {
 }
 .btn-primary,
 .btn-primary:active {
-  background-color: #9fe870 !important;
-  border-color: #9fe870 !important;
-  color: #264d0c !important;
+  background-color: #f92c50 !important;
+  border-color: #f92c50 !important;
+  color: #ffffff !important;
   box-shadow: none;
 }
 .btn-primary:hover,
@@ -172,15 +172,15 @@ body {
 .btn-primary.focus,
 .btn-primary.active {
   color: inherit;
-  background-color: #bcef9c !important;
-  border-color: #bcef9c !important;
+  background-color: #fa5e79 !important;
+  border-color: #fa5e79 !important;
   box-shadow: none;
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
-  color: #264d0c !important;
-  background-color: #bcef9c !important;
-  border-color: #bcef9c !important;
+  color: #ffffff !important;
+  background-color: #fa5e79 !important;
+  border-color: #fa5e79 !important;
 }
 .btn-secondary,
 .btn-secondary:active {
@@ -339,23 +339,23 @@ body {
 .btn-primary-outline,
 .btn-primary-outline:active {
   background-color: transparent !important;
-  border-color: #9fe870;
-  color: #9fe870;
+  border-color: #f92c50;
+  color: #f92c50;
 }
 .btn-primary-outline:hover,
 .btn-primary-outline:focus,
 .btn-primary-outline.focus,
 .btn-primary-outline.active {
-  color: #6ddc25 !important;
+  color: #c90628 !important;
   background-color: transparent !important;
-  border-color: #6ddc25 !important;
+  border-color: #c90628 !important;
   box-shadow: none !important;
 }
 .btn-primary-outline.disabled,
 .btn-primary-outline:disabled {
-  color: #264d0c !important;
-  background-color: #9fe870 !important;
-  border-color: #9fe870 !important;
+  color: #ffffff !important;
+  background-color: #f92c50 !important;
+  border-color: #f92c50 !important;
 }
 .btn-secondary-outline,
 .btn-secondary-outline:active {
@@ -505,7 +505,7 @@ body {
   border-color: #fafafa !important;
 }
 .text-primary {
-  color: #9fe870 !important;
+  color: #f92c50 !important;
 }
 .text-secondary {
   color: #ffd7ef !important;
@@ -531,7 +531,7 @@ body {
 a.text-primary:hover,
 a.text-primary:focus,
 a.text-primary.active {
-  color: #66d022 !important;
+  color: #ba0525 !important;
 }
 a.text-secondary:hover,
 a.text-secondary:focus,
@@ -582,7 +582,7 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
   background-position: 0px 1.2em;
 }
 .nav-tabs .nav-link.active {
-  color: #9fe870;
+  color: #f92c50;
 }
 .nav-tabs .nav-link:not(.active) {
   color: #232323;
@@ -606,9 +606,9 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
   border-radius: 100px !important;
 }
 .mbr-gallery-filter li.active .btn {
-  background-color: #9fe870;
-  border-color: #9fe870;
-  color: #306310;
+  background-color: #f92c50;
+  border-color: #f92c50;
+  color: #ffffff;
 }
 .mbr-gallery-filter li.active .btn:focus {
   box-shadow: none;
@@ -618,11 +618,11 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 }
 a,
 a:hover {
-  color: #9fe870;
+  color: #f92c50;
 }
 .mbr-plan-header.bg-primary .mbr-plan-subtitle,
 .mbr-plan-header.bg-primary .mbr-plan-price-desc {
-  color: #ffffff;
+  color: #fff2f5;
 }
 .mbr-plan-header.bg-success .mbr-plan-subtitle,
 .mbr-plan-header.bg-success .mbr-plan-price-desc {
@@ -657,7 +657,7 @@ a:hover {
 .form-control:hover,
 .form-control:focus {
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px 0px, rgba(0, 0, 0, 0.07) 0px 1px 3px 0px, rgba(0, 0, 0, 0.03) 0px 0px 0px 1px;
-  border-color: #9fe870 !important;
+  border-color: #f92c50 !important;
 }
 .form-control:-webkit-input-placeholder {
   font-family: 'Inter Tight', sans-serif;
@@ -669,7 +669,7 @@ a:hover {
   font-size: 1.75rem;
 }
 blockquote {
-  border-color: #9fe870;
+  border-color: #f92c50;
 }
 /* Forms */
 .mbr-form .input-group-btn .btn {
@@ -687,14 +687,14 @@ blockquote {
 }
 .jq-selectbox li:hover,
 .jq-selectbox li.selected {
-  background-color: #9fe870;
-  color: #000000;
+  background-color: #f92c50;
+  color: #ffffff;
 }
 .jq-number__spin {
   transition: 0.25s ease;
 }
 .jq-number__spin:hover {
-  border-color: #9fe870;
+  border-color: #f92c50;
 }
 .jq-selectbox .jq-selectbox__trigger-arrow,
 .jq-number__spin.minus:after,
@@ -706,14 +706,14 @@ blockquote {
 .jq-selectbox:hover .jq-selectbox__trigger-arrow,
 .jq-number__spin.minus:hover:after,
 .jq-number__spin.plus:hover:after {
-  border-top-color: #9fe870;
-  border-bottom-color: #9fe870;
+  border-top-color: #f92c50;
+  border-bottom-color: #f92c50;
 }
 .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
 .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
-  color: #000000 !important;
-  background-color: #9fe870 !important;
+  color: #ffffff !important;
+  background-color: #f92c50 !important;
   box-shadow: none !important;
 }
 .xdsoft_datetimepicker .xdsoft_calendar td:hover,
@@ -744,7 +744,7 @@ iframe.lazy-placeholder,
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='32' height='32' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg' stroke='%239fe870' %3e%3cg fill='none' fill-rule='evenodd'%3e%3cg transform='translate(16 16)' stroke-width='2'%3e%3ccircle stroke-opacity='.5' cx='16' cy='16' r='16'/%3e%3cpath d='M32 16c0-9.94-8.06-16-16-16'%3e%3canimateTransform attributeName='transform' type='rotate' from='0 16 16' to='360 16 16' dur='1s' repeatCount='indefinite'/%3e%3c/path%3e%3c/g%3e%3c/g%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='32' height='32' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg' stroke='%23f92c50' %3e%3cg fill='none' fill-rule='evenodd'%3e%3cg transform='translate(16 16)' stroke-width='2'%3e%3ccircle stroke-opacity='.5' cx='16' cy='16' r='16'/%3e%3cpath d='M32 16c0-9.94-8.06-16-16-16'%3e%3canimateTransform attributeName='transform' type='rotate' from='0 16 16' to='360 16 16' dur='1s' repeatCount='indefinite'/%3e%3c/path%3e%3c/g%3e%3c/g%3e%3c/svg%3e");
 }
 section.lazy-placeholder:after {
   opacity: 0.5;
@@ -913,7 +913,7 @@ a {
   align-items: center;
   border-radius: 100vw;
   margin-top: 1rem;
-  background-color: #ffffff;
+  background-color: #000000;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
 }
 @media (max-width: 992px) {
@@ -942,7 +942,7 @@ a {
   border-radius: 1.5rem;
   transition: .3s all !important;
   min-width: auto;
-  background: #ffffff;
+  background: #000000;
 }
 .cid-u8wt0mAq8K .nav-item:focus,
 .cid-u8wt0mAq8K .nav-link:focus {
@@ -1006,7 +1006,7 @@ a {
 }
 @media (min-width: 992px) {
   .cid-u8wt0mAq8K .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3rem);
+    max-height: calc(98.5vh - 1.9rem);
   }
 }
 .cid-u8wt0mAq8K .navbar.collapsed .dropdown-menu .dropdown-submenu {
@@ -1104,7 +1104,7 @@ a {
   padding: 0.667em 1.667em;
 }
 .cid-u8wt0mAq8K .navbar.navbar-expand-lg .dropdown .dropdown-menu {
-  background: #ffffff;
+  background: #000000;
 }
 .cid-u8wt0mAq8K .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
   margin: 0;
@@ -1142,7 +1142,7 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #000000;
+  background-color: #ffffff;
 }
 .cid-u8wt0mAq8K button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -1268,7 +1268,7 @@ a {
     width: 100%;
     padding: 1rem;
     border-radius: 1.5rem;
-    background: #ffffff;
+    background: #000000;
     backdrop-filter: blur(8px);
   }
   .cid-u8wt0mAq8K .navbar-nav .nav-item .nav-link::after {
@@ -1335,7 +1335,7 @@ a {
 .cid-u8wtG1YhAy {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-image: url("../../../assets/images/firefly-polska-flaga-biae-to-maly-bocian-w-rogu-38077paint.jpg");
+  background-color: #ffffff;
 }
 .cid-u8wtG1YhAy .mbr-fallback-image.disabled {
   display: none;
@@ -1391,7 +1391,7 @@ a {
 .cid-u8wxrJpan1 {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-image: url("../../../assets/images/firefly-polska-flaga-biae-to-maly-bocian-w-rogu-38077paint-4.jpeg");
+  background-color: #ffffff;
 }
 .cid-u8wxrJpan1 .mbr-fallback-image.disabled {
   display: none;
@@ -1414,7 +1414,7 @@ a {
 .cid-u8wykED8QZ {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-image: url("../../../assets/images/firefly-polska-flaga-biae-to-maly-bocian-w-rogu-38077paint-6.jpeg");
+  background-color: #ffffff;
 }
 .cid-u8wykED8QZ .mbr-fallback-image.disabled {
   display: none;
@@ -1434,10 +1434,38 @@ a {
 .cid-u8wykED8QZ .mbr-description {
   color: #f92c50;
 }
+.cid-uaeqdLs3RY {
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+  background-color: #ffffff;
+}
+.cid-uaeqdLs3RY .fb-page,
+.cid-uaeqdLs3RY span,
+.cid-uaeqdLs3RY iframe {
+  width: 500px;
+  height: 470px;
+}
+.cid-uaeqdLs3RY blockquote {
+  display: none;
+}
+.cid-uaeqdLs3RY .fb-page {
+  background-color: #1877f2;
+  border-radius: 4px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #fff;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='xMinYMin meet' viewBox='0 0 262 266.895'><path id='path3087' fill='%23fff' d='M182.409,262.307v-99.803h33.499l5.016-38.895h-38.515V98.777c0-11.261,3.127-18.935,19.275-18.935 l20.596-0.009V45.045c-3.562-0.474-15.788-1.533-30.012-1.533c-29.695,0-50.025,18.126-50.025,51.413v28.684h-33.585v38.895h33.585 v99.803H182.409z'></path></svg>");
+}
+.cid-uaeqdLs3RY .mbr-section-title {
+  color: #f92c50;
+}
+.cid-uaeqdLs3RY .mbr-text {
+  color: #f92c50;
+}
 .cid-u8wzvmhdwU {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-image: url("../../../assets/images/firefly-polska-flaga-biae-to-maly-bocian-w-rogu-38077paint.jpg");
+  background-color: #edefeb;
 }
 .cid-u8wzvmhdwU h6 {
   line-height: 1.2;
@@ -1491,7 +1519,7 @@ a {
 .cid-u8wAtaMiEg {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-image: url("../../../assets/images/firefly-polska-flaga-biae-to-maly-bocian-w-rogu-38077paint.jpg");
+  background-color: #ffffff;
 }
 .cid-u8wAtaMiEg .mbr-fallback-image.disabled {
   display: none;
@@ -1547,7 +1575,7 @@ a {
 .cid-u8wCRj0J3S {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-image: url("../../../assets/images/firefly-polska-flaga-biae-to-maly-bocian-w-rogu-38077paint.jpg");
+  background: #000000;
 }
 .cid-u8wCRj0J3S .mbr-fallback-image.disabled {
   display: none;

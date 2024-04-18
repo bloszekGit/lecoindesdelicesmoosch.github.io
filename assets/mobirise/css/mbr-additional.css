@@ -1465,7 +1465,7 @@ a {
 .cid-u8wzvmhdwU {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: #edefeb;
+  background-color: #ffffff;
 }
 .cid-u8wzvmhdwU h6 {
   line-height: 1.2;
@@ -1515,6 +1515,9 @@ a {
   .cid-u8wzvmhdwU .item-wrapper {
     margin-bottom: 1rem;
   }
+}
+.cid-u8wzvmhdwU .mbr-section-subtitle {
+  color: #f92c50;
 }
 .cid-u8wAtaMiEg {
   padding-top: 6rem;
